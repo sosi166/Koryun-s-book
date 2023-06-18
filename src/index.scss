@@ -1,0 +1,62 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    letter-spacing: 1px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.progress-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: #932326;
+    transform-origin: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #932326;
+}

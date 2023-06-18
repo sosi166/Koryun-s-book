@@ -1,0 +1,23 @@
+#aboutBook {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 7px double #969798;
+    border-bottom: 7px double #969798;
+
+    img {
+        width: 60%;
+        margin: 10px;
+        box-shadow: #969798 3px 3px 3px 3px;
+    }
+}
+
+@media(max-width:768px) {
+
+    #aboutBook img {
+        width: 95%;
+    }
+}
